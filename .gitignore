@@ -1,0 +1,28 @@
+node_modules
+*.log
+*.idea
+.DS_Store
+lib
+dist
+*.local
+umd
+build
+coverage
+.idea
+.eslintcache
+.pnp.*
+
+# This monorepo uses pnpm
+package-lock.json
+
+# Yarn (Berry) dirs
+.yarn/*
+
+# Debugger
+.vscode/temp
+
+# TS
+tsconfig.tsbuildinfo
+
+# IntelliJ
+.gradle/*
